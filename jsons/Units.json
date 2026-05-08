@@ -1,17 +1,63 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+  {
+    "name": "Hermis",
+    "unitType": "Melee",
+    "movement": 25,
+    "strength": 160,
+    "cost": 500,
+    "requiredTech": "The Wheel",
+    "uniques": [
+      "[Messenger] Icon",
+      "Ignores terrain cost",
+      "Can move after attacking",
+      "Withdraws before melee attacks",
+      "[+20]% [Production] in this city"
+    ]
+  },
+  {
+    "name": "Athena",
+    "unitType": "Melee",
+    "movement": 4,
+    "strength": 180,
+    "cost": 800,
+    "requiredTech": "Engineering",
+    "uniques": [
+      "[Jeanne d'Arc] Icon",
+      "All adjacent units get [+20]% Strength",
+      "[+50]% Strength when defending",
+      "Enemy units ending their turn adjacent to this unit take [20] damage",
+      "[+25]% [Science] in this city"
+    ]
+  },
+  {
+    "name": "Zeus",
+    "unitType": "Ranged",
+    "movement": 5,
+    "strength": 150,
+    "rangedStrength": 200,
+    "range": 4,
+    "cost": 1200,
+    "requiredTech": "Mathematics",
+    "uniques": [
+      "[Statue of Zeus] Icon",
+      "Indirect Fire",
+      "Blitz",
+      "[+20]% [Culture] in this city"
+    ]
+  },
+  {
+    "name": "Hades",
+    "unitType": "Melee",
+    "movement": 4,
+    "strength": 175,
+    "cost": 1000,
+    "requiredTech": "Theology",
+    "uniques": [
+      "[Hades] Icon",
+      "Gains [500]% of defeated units' [Strength] as [Gold]",
+      "Heals [100] HP on killing a unit",
+      "Invisible to non-adjacent units",
+      "[+10] [Gold] from this city"
+    ]
+  }
 ]
